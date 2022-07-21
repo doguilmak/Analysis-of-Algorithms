@@ -85,6 +85,7 @@ Console output:
 
 **250**
 
+![recurrences_graph](graphs/recurrences.png)
 
 ## Problem 2 - Generating Functions
 
