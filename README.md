@@ -86,8 +86,10 @@ Console output:
 **250**
 
 <div align="center">
-	<img src="graphs/recurrences.png" alt="Italian Trulli"height = "400" width="400">
+	<img src="graphs/recurrences.png" alt="recurrence_matlab" height="400" width="600">
 </div>
+
+<br>
 
 ## Problem 2 - Generating Functions
 
