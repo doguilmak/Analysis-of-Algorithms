@@ -184,7 +184,7 @@ Solution of the problem on MATLAB:
 
 Console output:
 
-**aux[99] =  5.000000000318287** which is $\approx$ 5.
+**aux[100] =  5.000000000318287** which is $\approx$ 5.
 
 ## Contact Me
 
