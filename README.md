@@ -85,7 +85,9 @@ Console output:
 
 **250**
 
-![recurrences_graph](graphs/recurrences.png)
+<div align="center">
+	<img src="graphs/recurrences.png" alt="Italian Trulli"height = "400" width="400">
+</div>
 
 ## Problem 2 - Generating Functions
 
