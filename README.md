@@ -91,6 +91,8 @@ Console output:
 
 <br>
 
+<br>
+
 **2 - Plot the periodic part of the solution to the recurrence $a_n = 3a_{[N/3]} + N$ for $N > 3$ with $a_1 = a_2 = a_3 = 1$ for $1 \leq N \leq972$.**
 
 Solution of the problem on Java (it does not include plotting):
@@ -161,6 +163,10 @@ Console output:
 <div align="center">
 	<img src="graphs/recurrence_periodic.png" alt="recurrence_periodic_python" height="400" width="600">
 </div>
+
+<br>
+
+<br>
 
 ## Generating Functions
 
