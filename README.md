@@ -15,16 +15,16 @@ Solution of the problem on Java:
 
 	    public static void main(String[] args) {
 	    
-			int tam = 1000, n;
-			float[] an = new float[tam];
-			an[0] = 0;
-			an[1] = 0;
-			an[2] = 0;
-			
-			for (n = 3; n < tam; n++) {
-		      an[n] = (((n - 3) * an[n - 1]) / n) + 1;
-		      System.out.println(an[n]);
-		    }
+		int tam = 1000, n;
+		float[] an = new float[tam];
+		an[0] = 0;
+		an[1] = 0;
+		an[2] = 0;
+
+		for (n = 3; n < tam; n++) {
+		   an[n] = (((n - 3) * an[n - 1]) / n) + 1;
+		   System.out.println(an[n]);
+		}
 			
 	    }
 
@@ -100,28 +100,28 @@ Solution of the problem on Java:
 	public class Programme {
 
 		public static void main(String[] args) {
-		
+
 			int tam = 100, n;
 			float[] an = new float[tam];
 			float aux;
 			an[0] = 0;
 			an[1] = 1;
-			
+
 			for (n = 2; n < tam; n++)   {	        
 				an[n] = (9 * an[n - 1]) - (20 * an[n - 2]);
-		
-		        if (n>=2 && n <= 100)	{
-		        	System.out.println("a["+n+"] = " + an[n]);
-		        }	        
-		    }
-			
-			for (n = 2; n < tam; n++)	{	        
-				aux=(float)an[n]/an[n-1];
-		        
+
 				if (n>=2 && n <= 100)	{
-		        	System.out.println("aux["+n+"] = " + aux);
-		        }	        
-		    }
+					System.out.println("a["+n+"] = " + an[n]);
+				}	        
+			}
+
+			for (n = 2; n < tam; n++)   {	        
+				aux=(float)an[n]/an[n-1];
+
+				if (n>=2 && n <= 100)	{
+				System.out.println("aux["+n+"] = " + aux);
+				}	        
+		    	}
 		
 		}
 	}
