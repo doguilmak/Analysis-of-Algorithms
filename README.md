@@ -5,7 +5,7 @@
 
 In short, in computer science, analysis of algorithms is the process of figuring out the computational complexity of algorithms - the amount of time, storage or other resources required to execute them. In this repository, the solutions of the problems given in the Analysis of Algorithms course will be shown. Problems will be solved through various programming languages. Please indicate if there are any missing, incorrect or excess parts.
 
-## Problem 1 - Recurrences
+## Recurrences
 
 **1 - Suppose that $an_n = (n - 3) a_{n-1} + n$ for $n > 2$ with $a_0 = a_1 = a_2 = 0$. What is the value of $a_{999}$?**
 
@@ -162,7 +162,7 @@ Console output:
 	<img src="graphs/recurrence_periodic.png" alt="recurrence_periodic_python" height="400" width="600">
 </div>
 
-## Problem 2 - Generating Functions
+## Generating Functions
 
 **Suppose that $a_n = 9a_{n-1} - 20a_{n-2}$ for $n > 1$ with $a_0 = 0$ and $a_1 = 1$. What is the value of $\lim_{n \to \infty} \dfrac{a_n }{a_{n-1}}$?**
 
