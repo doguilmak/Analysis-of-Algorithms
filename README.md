@@ -119,7 +119,7 @@ Solution of the problem on Java:
 				aux=(float)an[n]/an[n-1];
 
 				if (n>=2 && n <= 100)	{
-				System.out.println("aux["+n+"] = " + aux);
+					System.out.println("aux["+n+"] = " + aux);
 				}	        
 		    	}
 		
