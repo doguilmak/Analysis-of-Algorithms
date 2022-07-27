@@ -190,7 +190,7 @@ Solution of the problem on Java:
 
 Console output:
 
-> a[99] = 28.571438
+**a[99] = 28.571438**
 
 <br>
 
@@ -213,7 +213,7 @@ Solution of the problem on Python 3.9:
 
 Console output:
 
-> Answer of the question : 28.57142857142856
+**Answer of the question : 28.57142857142856**
 
 <br>
 
@@ -233,7 +233,7 @@ Solution of the problem on MATLAB:
 
 Console output:
 
-> 2.885714285714284e+01
+**2.885714285714284e+01**
 
 <br>
 
