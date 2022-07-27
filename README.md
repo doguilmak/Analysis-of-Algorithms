@@ -166,6 +166,77 @@ Console output:
 
 <br>
 
+**3 - Suppose that $A_N = A(N - 1) - \dfrac{2A_{N-1}}{N} + 2(1 - \dfrac{2A_{N-1}}{N})$ for $N > 0$ with $A_0 = 0$. What is the value of $A_{99}$?**
+
+Solution of the problem on Java:
+
+    public class Programme {
+    
+        public static void main(String[] args) {
+        
+    	int tam = 100, n;
+    	float[] an = new float[tam];
+    	an[0] = 0;
+    
+    	for (n = 1; n < tam; n++) {
+    		an[n] = an[n - 1] - ((2 * an[n - 1]) / n) + (2 * (1 - (2 * an[n - 1])/ n));
+    	   System.out.println(an[n]);
+    	}
+    	
+    	System.out.println("a[99] = " + an[99]);
+        
+        }
+    }
+
+Console output:
+
+> a[99] = 28.571438
+
+<br>
+
+Solution of the problem on Python 3.9:
+
+    import numpy as np
+    
+    tam = 100
+    n = 1
+    an=np.zeros(tam)
+    an[0] = 0
+    
+    
+    while n < tam:
+        an[n] = an[n - 1] - ((2 * an[n - 1]) / n) + (2 * (1 - (2 * an[n - 1])/ n))
+        print(an[n])
+        n+=1
+        
+    print(f"\nAnswer of the question : {an[99]}")
+
+Console output:
+
+> Answer of the question : 28.57142857142856
+
+<br>
+
+Solution of the problem on MATLAB:
+
+    format long
+    tam = 100;
+    n = 2;
+    an = zeros(tam, 1);
+    an(1) = 0;
+    
+    
+    while n <= tam
+      an(n) = an(n - 1) - ((2 * an(n - 1)) / n) + (2 * (1 - (2 * an(n - 1))/ n))
+      n=n+1;
+    end
+
+Console output:
+
+> 2.885714285714284e+01
+
+<br>
+
 <br>
 
 ## Generating Functions
