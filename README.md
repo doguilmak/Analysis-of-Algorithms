@@ -93,7 +93,7 @@ Console output:
 
 <br>
 
-**2 - Plot the periodic part of the solution to the recurrence $a_n = 3a_{[N/3]} + N$ for $N > 3$ with $a_1 = a_2 = a_3 = 1$ for $1 \leq N \leq972$.**
+**2 - Plot the periodic part of the solution to the recurrence $a_N = 3a_{[N/3]} + N$ for $N > 3$ with $a_1 = a_2 = a_3 = 1$ for $1 \leq N \leq972$.**
 
 Solution of the problem on Java (it does not include plotting):
 
