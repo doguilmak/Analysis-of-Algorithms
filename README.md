@@ -356,7 +356,7 @@ Console output:
 
 ## Words and Mappings
 
-**How many people asked before finding two with the same birthday? ($\sqrt{\dfrac{\pi \cdot M}{2}}$)**
+**How many people asked before finding two with the same birthday?** **($\sqrt{\dfrac{\pi \cdot M}{2}}$)**
 
 [Solution of the problem on Java:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/words_and%20mappings/birthday_problem.java)
 
