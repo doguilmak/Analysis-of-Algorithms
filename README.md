@@ -9,7 +9,8 @@ In short, in computer science, analysis of algorithms is the process of figuring
 
 **1 - Suppose that $an_n = (n - 3) a_{n-1} + n$ for $n > 2$ with $a_0 = a_1 = a_2 = 0$. What is the value of $a_{999}$?**
 
-Solution of the problem on Java:
+[Solution of the problem on Java:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrences_1.java)
+
 
 	public class Programme {
 
@@ -36,7 +37,8 @@ Console output:
 
 <br>
 
-Solution of the problem on Python 3.9:
+[Solution of the problem on Python 3.9:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrences_1.py)
+
 
 	import numpy as np
 
@@ -60,7 +62,8 @@ Console output:
 
 <br>
 
-Solution of the problem on MATLAB:
+[Solution of the problem on MATLAB:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrences_1.m)
+
 
 	tam = 1000;
 	n = 2;
@@ -95,7 +98,8 @@ Console output:
 
 **2 - Plot the periodic part of the solution to the recurrence $a_N = 3a_{[N/3]} + N$ for $N > 3$ with $a_1 = a_2 = a_3 = 1$ for $1 \leq N \leq972$.**
 
-Solution of the problem on Java (it does not include plotting):
+[Solution of the problem on Java (it does not include plotting):](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrence_periodic.java)
+
 
     public class Programme {
     
@@ -122,7 +126,8 @@ Console output:
 
 <br>
 
-Solution of the problem on Python 3.9:
+[Solution of the problem on Python 3.9:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrence_periodic.py)
+
 
     import numpy as np
     
@@ -168,7 +173,8 @@ Console output:
 
 **3 - Suppose that $A_N = A(N - 1) - \dfrac{2A_{N-1}}{N} + 2(1 - \dfrac{2A_{N-1}}{N})$ for $N > 0$ with $A_0 = 0$. What is the value of $A_{99}$?**
 
-Solution of the problem on Java:
+[Solution of the problem on Java:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrences_2.java)
+
 
     public class Programme {
     
@@ -194,7 +200,8 @@ Console output:
 
 <br>
 
-Solution of the problem on Python 3.9:
+[Solution of the problem on Python 3.9:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrences_2.py)
+
 
     import numpy as np
     
@@ -217,7 +224,8 @@ Console output:
 
 <br>
 
-Solution of the problem on MATLAB:
+[Solution of the problem on MATLAB:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/recurrences/recurrences_2.m)
+
 
     format long
     tam = 100;
@@ -243,7 +251,8 @@ Console output:
 
 **Suppose that $a_n = 9a_{n-1} - 20a_{n-2}$ for $n > 1$ with $a_0 = 0$ and $a_1 = 1$. What is the value of $\lim_{n \to \infty} \dfrac{a_n }{a_{n-1}}$?**
 
-Solution of the problem on Java:
+[Solution of the problem on Java:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/generating_functions/generating_functions.java)
+
 
 	public class Programme {
 
@@ -280,7 +289,8 @@ Console output:
 
 <br>
 
-Solution of the problem on Python 3.9:
+[Solution of the problem on Python 3.9:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/generating_functions/generating_functions.py)
+
 
 	import numpy as np
 
@@ -314,7 +324,8 @@ Console output:
 
 <br>
 
-Solution of the problem on MATLAB:
+[Solution of the problem on MATLAB:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/generating_functions/generating_functions.m)
+
 
 	format long
 	tam = 100;
@@ -338,6 +349,65 @@ Solution of the problem on MATLAB:
 Console output:
 
 **aux[100] =  5.000000000318287** which is $\approx$ 5.
+
+<br>
+
+<br>
+
+## Words and Mappings
+
+**How many people asked before finding two with the same birthday? ($\sqrt{\dfrac{\pi \cdot M}{2}}$)**
+
+[Solution of the problem on Java:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/words_and%20mappings/birthday_problem.java)
+
+
+	import java.lang.Math;
+
+	public class Programme {
+
+		public static void main(String[] args) {
+
+			int M = 365;
+			double result = Math.sqrt(Math.PI * M / 2);
+			System.out.println("Result of the problem: " + result);
+		}
+	}
+
+Console output:
+
+**Result of the problem: 23.944532972687885**
+
+<br>
+
+[Solution of the problem on Python 3.9:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/words_and%20mappings/birthday_problem.py)
+
+
+	from math import sqrt, pi
+
+	M = 365
+	result = sqrt(pi * M / 2)
+
+	print(f"Result of the problem: {result}")
+
+Console output:
+
+**Result of the problem: 23.944532972687885**
+
+<br>
+
+[Solution of the problem on MATLAB:](https://github.com/doguilmak/Analysis-of-Algorithms/blob/main/words_and%20mappings/birthday_problem.m)
+
+
+	format long
+
+	M = 365;
+	result = sqrt(pi * M / 2)
+
+Console output:
+
+**result =  23.94453297268788**
+
+<br>
 
 ## Contact Me
 
