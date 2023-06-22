@@ -10,13 +10,19 @@
 
 Algorithms form the backbone of modern computing, enabling efficient problem-solving and optimization in various domains. Understanding the performance characteristics of algorithms is crucial for software developers and computer scientists. This article delves into the fascinating realm of Analysis of Algorithms, exploring its significance and highlighting a comprehensive project that sheds light on solving problems using Python, Java, and MATLAB.
 
+<br>  
+
 ## Understanding Analysis of Algorithms
 
 Analysis of Algorithms is a field of study that aims to evaluate and compare the efficiency and resource utilization of different algorithms. It involves quantifying an algorithm's time complexity, space complexity, and other factors that impact its performance. By analyzing algorithms, developers can make informed decisions about choosing the most suitable approach for solving specific problems.
 
+<br>  
+
 ## Project Description
 
 In short, in computer science, analysis of algorithms is the process of figuring out the computational complexity of algorithms - the amount of time, storage or other resources required to execute them. In this repository, the solutions of the problems given in the Analysis of Algorithms course will be shown. Problems will be solved through various programming languages. Please indicate if there are any missing, incorrect or excess parts.
+
+<br>  
 
 ## Recurrences
 
