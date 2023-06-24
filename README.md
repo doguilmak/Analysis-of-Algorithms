@@ -1,8 +1,8 @@
 <h1 align=center >Analysis of Algorithms</h1>  
 
-<img  src="https://mechdampiitb.github.io/assets/images/Course%20Reviews/Insti/CS218.jpg" width=1000  height=500 alt="https://mechdampiitb.github.io/CS218_abhiram/"/>
+<img  src="https://cdn.theatlantic.com/thumbor/QHahLOnDzXphnlT0hUFJ0QiHX90=/0x206:2831x1798/1600x900/media/img/mt/2015/09/code/original.jpg" width=1000  height=500 alt="https://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/"/>
 
-<small>Picture Source: <a href="https://mechdampiitb.github.io/CS218_abhiram/">CS218_abhiram</a></small>
+<small>Picture Source: <a href="https://www.theatlantic.com/technology/archive/2015/09/not-even-the-people-who-write-algorithms-really-know-how-they-work/406099/">theatlantic</a></small>
 
 <br>  
 
