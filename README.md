@@ -14,7 +14,7 @@ Algorithms form the backbone of modern computing, enabling efficient problem-sol
 
 ## Understanding Analysis of Algorithms
 
-Analysis of Algorithms is a field of study that aims to evaluate and compare the efficiency and resource utilization of different algorithms. It involves quantifying an algorithm's time complexity, space complexity, and other factors that impact its performance. By analyzing algorithms, developers can make informed decisions about choosing the most suitable approach for solving specific problems.
+Analysis of Algorithms is a field of study that aims to evaluate and compare the efficiency and resource utilization of different algorithms. It involves quantifying an algorithm's time complexity, space complexity, and other factors that impact its performance. By analyzing algorithms, developers can make informed decisions about choosing the most suitable approach for solving specific problems. For deeper research and sample questions, please get the [Analysis of Algorithms](https://www.amazon.com/Introduction-Analysis-Algorithms-2nd/dp/032190575X) book. You should definitely check out this book.
 
 <br>  
 
